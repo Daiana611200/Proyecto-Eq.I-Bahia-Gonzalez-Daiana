@@ -58,21 +58,22 @@ footer {
     padding: 48 px 2px;
 
     display: grid;
-    grid-template-columns:3fr;
-    grid-template-rows:2fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 30px; 
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 10px; 
+    
+    align-content: space-between;
     }
 
 
 footer div:nth-child(1) {
-text-align:left;
+    text-align:left;
 }
 
 footer div:nth-child(2) {
-    text-align:right;
-    flex-direction: column;
-
+    text-align: center;
+  
     }
     
 footer div:nth-child(3) {
@@ -83,8 +84,8 @@ footer div:nth-child(3) {
     }
 
 footer ul li {
-    display: inline-block;
-}
+    display:inline-block;
+    }
 
 footer ul li a svg {
     margin: 0 10px;
