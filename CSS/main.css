@@ -21,16 +21,16 @@ header {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 200px;
     text-align: center;
+    justify-content:center;
      
     display: flex;
     flex-direction: column;
     flex-wrap: space-around;
- 
-    justify-content:center;
     }
 
 .item-01:hover{
 transform: scale(1.2);
+
 }
 
 .item-02:hover{
@@ -55,7 +55,7 @@ main {
 /*Estilo footer*/
 footer {
     background-color:rgb(133, 152, 201);
-    padding: 48 px 2px;
+    padding: 48px 2px;
 
     display: grid;
     grid-template-columns: auto auto;
@@ -69,11 +69,10 @@ footer {
 
 footer div:nth-child(1) {
     text-align:left;
-}
+    }
 
 footer div:nth-child(2) {
     text-align: center;
-  
     }
     
 footer div:nth-child(3) {
@@ -88,11 +87,10 @@ footer ul li {
     }
 
 footer ul li a svg {
-    margin: 0 10px;
-}
+    margin: 100 5px;
+    }
 
 footer div:nth-child(3) {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;    
     }
