@@ -14,17 +14,42 @@
 header {
     background-color: rgb(159, 240, 250);
     border-radius: 10px;
+    text-align: center;
 }
 
 .contenedor{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 200px;
- 
+    text-align: center;
+     
     display: flex;
     flex-direction: column;
     flex-wrap: space-around;
  
-    justify-content:center
+    justify-content:center;
+    }
+
+.item-01:hover{
+transform: scale(1.2);
+}
+
+.item-02:hover{
+    transform: scale(1.2);
+}
+
+.item-03:hover{
+    transform: scale(1.2);
+}
+
+/*Estilo main*/
+main {
+    text-align: center;
+    padding: 25px 25px 25px 15px;
+     
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 /*Estilo footer*/
@@ -46,7 +71,8 @@ text-align:left;
 
 footer div:nth-child(2) {
     text-align:right;
-    flex-direction: row;
+    flex-direction: column;
+
     }
     
 footer div:nth-child(3) {
