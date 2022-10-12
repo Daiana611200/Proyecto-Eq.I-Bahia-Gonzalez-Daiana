@@ -35,7 +35,6 @@ header {
 
 .item-01:hover{
 transform: scale(1.2);
-
 }
 
 .item-02:hover{
@@ -56,6 +55,12 @@ main {
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
+    @media screen and (max-width: 992px) {
+        .section .galeria {
+          width: 50%;
+        }
+      }
 
 /*Estilo footer*/
 footer {
